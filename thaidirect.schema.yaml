@@ -1,0 +1,145 @@
+﻿# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: thaidirect
+  name: "泰文(ไทย)直打"
+  version: "2.0"
+  author:
+    - 滕謄<daengz@foxmail.com>
+  description: |
+    - 泰文直打輸入法（模擬win版鍵盤佈局）
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ "ไทย", "Eng" ]
+  - name: full_shape
+    reset: 0
+    states: [ "Half", "Full" ]
+   
+
+engine:
+  processors:
+    - ascii_composer
+    - key_binder
+    - punctuator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - punct_segmentor
+  translators:
+    - punct_translator
+
+punctuator:
+  import_preset: default
+  half_shape: &symtable
+    #小寫
+    '`' : '_'
+    "1" : "ๅ"
+    "2" : '/'
+    "3" : '-'
+    "4" : "ภ"
+    "5" : "ถ"
+    "6" : "ุ"
+    "7" : "ึ"
+    "8" : "ค"
+    "9" : "ต"
+    "0" : "จ"
+    '-' : "ข"
+    '=' : "ช"	
+    #第二行
+    "q" : "ๆ"
+    "w" : "ไ"
+    "e" : "ำ"
+    "r" : "พ"
+    "t" : "ะ"
+    "y" : "ั"
+    "u" : "ี"
+    "i" : "ร"
+    "o" : "น"
+    "p" : "ย"
+    '[' : "บ"
+    ']' : "ล"
+    "\\" : "ฃ"	
+    #第三行
+    "a" : "ฟ"
+    "s" : "ห"
+    "d" : "ก"
+    "f" : "ด"
+    "g" : "เ"
+    "h" : "้"
+    "j" : "่"
+    "k" : "า"
+    "l" : "ส"
+    ';' : "ว"
+    '''' : "ง"
+    #第四行
+    "z" : "ผ"
+    "x" : "ป"
+    "c" : "แ"
+    "v" : "อ"
+    "b" : "ิ"
+    "n" : "ื"
+    "m" : "ท"
+    ',' : "ม"
+    '.' : "ใ"
+    '/' : "ฝ"
+    #大寫第一行
+    '~' : '%'
+    '!' : '+'
+    '@' : "๑"
+    '#' : "๒"
+    '$' : "๓"
+    '%' : "๔"
+    '^' : "ู"
+    '&' : '฿'
+    '*' : "๕"
+    '(' : "๖"
+    ')' : "๗"
+    '_' : "๘"
+    '+' : "๙"	
+    #第二行
+    "Q" : "๐"
+    "W" : "ไ"
+    "E" : "ฎ"
+    "R" : "ฑ"
+    "T" : "ธ"
+    "Y" : "ํ"
+    "U" : "๊"
+    "I" : "ณ"
+    "O" : "ฯ"
+    "P" : "ญ"
+    '{' : "ฐ"
+    '}' : ','
+    '|' : "ฅ"
+    #第二行
+    "A" : "ฤ"
+    "S" : "ฆ"
+    "D" : "ฏ"
+    "F" : "โ"
+    "G" : "ฌ"
+    "H" : "็"
+    "J" : "๋"
+    "K" : "ษ"
+    "L" : "ศ"
+    ':' : "ซ"
+    '"' : '.'
+    #第三行
+    "Z" : '('
+    "X" : ')'
+    "C" : "ฉ"
+    "V" : "ฮ"
+    "B" : "ฺ"
+    "N" : "์"
+    "M" : '?'
+    '<' : "ฒ"
+    '>' : "ฬ"
+    '?' : "ฦ"
+    #最後一行
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
