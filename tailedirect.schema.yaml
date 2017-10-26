@@ -1,0 +1,95 @@
+﻿# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: tailedirect
+  name: "傣那（ᥖᥭᥰ）直打"
+  version: "2.0"
+  author:
+    - 滕謄<daengz@foxmail.com>
+  description: |
+    - 德宏傣文直打輸入法（國標德宏傣文鍵盤佈局）
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ "ᥖᥭᥰ", "Eng" ]
+  - name: full_shape
+    reset: 0
+    states: [ "Half", "Full" ]
+   
+
+engine:
+  processors:
+    - ascii_composer
+    - key_binder
+    - punctuator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - punct_segmentor
+  translators:
+    - punct_translator
+
+punctuator:
+  import_preset: default
+  half_shape: &symtable
+    #小寫
+    "1" : "၁"
+    "2" : "၂"
+    "3" : "၃"
+    "4" : "၄"
+    "5" : "၅"
+    "6" : "၆"
+    "7" : "၇"
+    "8" : "၈"
+    "9" : "၉"
+    "0" : "၀"
+    "-" : "ᥰ"
+    "=" : "ᥱ"
+    #第二行
+    "q" : "ᥪ"
+    "w" : "ᥩ"
+    "e" : "ᥥ"
+    "r" : "ᥫ"
+    "t" : "ᥗ"
+    "y" : "ᥕ"
+    "u" : "ᥧ"
+    "i" : "ᥤ"
+    "o" : "ᥨ"
+    "p" : "ᥚ"
+    "[" : "ᥲ"
+    "]" : "ᥳ"
+    #第三行
+    "a" : "ᥣ"
+    "s" : "ᥔ"
+    "d" : "ᥖ"
+    "f" : "ᥜ"
+    "g" : "ᥐ"
+    "h" : "ᥞ"
+    "j" : "ᥓ"
+    "k" : "ᥑ"
+    "l" : "ᥘ"
+    ';' : "ᥭ"
+    '''' : "ᥴ"
+    #第四行
+    "z" : "ᥟ"
+    "x" : "ᥦ"
+    "c" : "ᥬ"
+    "v" : "ᥝ"
+    "b" : "ᥙ"
+    "n" : "ᥒ"
+    "m" : "ᥛ"
+    ',' : "ᥢ"
+    '.' : "ᥡ"
+    '/' : "ᥠ"
+    #其他
+    '<' : ","
+    '>' : "."
+    '?' : "?"
+   
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
