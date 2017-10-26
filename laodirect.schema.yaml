@@ -1,0 +1,109 @@
+﻿# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: laodirect
+  name: "寮文(ລາວ)直打"
+  version: "2.0"
+  author:
+    - 滕謄<daengz@foxmail.com>
+  description: |
+    採用觸寶寮文鍵盤
+    無詞庫……誰有可以聯繫我
+    2017.10.21開搞
+    
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ "ລາວ", "Eng" ]
+  - name: full_shape
+    reset: 0
+    states: [ "Half", "Full" ]
+   
+
+engine:
+  processors:
+    - ascii_composer
+    - key_binder
+    - punctuator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - punct_segmentor
+  translators:
+    - punct_translator
+
+punctuator:
+  import_preset: default
+  half_shape: &symtable
+    #小寫第一行
+    "q" : "ົ"
+    "w" : "ໄ"
+    "e" : "ຳ"
+    "r" : "ູ"
+    "t" : "ະ"
+    "y" : "ິ"
+    "u" : "ີ"
+    "i" : "ຂ"
+    "o" : "ນ"
+    "p" : "ຍ"
+    #第二行
+    "a" : "ັ"
+    "s" : "ຫ"
+    "d" : "ກ"
+    "f" : "໑"
+    "g" : "ເ"
+    "h" : "້"
+    "j" : "່"
+    "k" : "າ"
+    "l" : "ສ"
+    ";" : "ວ"
+    #第三行
+    "z" : "ຜ"
+    "x" : "ປ"
+    "c" : "ແ"
+    "v" : "ອ"
+    "b" : "ໂ"
+    "n" : "ຶ"
+    "m" : "ທ"
+    "," : "ມ"
+    #大寫第一行
+    "Q" : "໌"
+    "W" : "ໃ"
+    "E" : "ຳ"
+    "R" : "ຸ"
+    "T" : "ບ"
+    "Y" : "ຊ"
+    "U" : "ງ"
+    "I" : "ຄ"
+    "O" : "ໜ"
+    "P" : "ຽ"
+    #第二行
+    "A" : "ຣ"
+    "S" : "ຮ"
+    "D" : "ຈ"
+    "F" : "ໆ"
+    "G" : "ເ"
+    "H" : "໊"
+    "J" : "ດ"
+    "K" : "ລ"
+    "L" : "ຕ"
+    ":" : "ຢ"
+    #第三行
+    "Z" : "ຟ"
+    "X" : "ຝ"
+    "C" : "ພ"
+    "V" : "ຼ"
+    "B" : "ໍ"
+    "N" : "ຶ"
+    "M" : "ຖ"
+    "<" : "ໝ"
+    #最後一行
+    "." : "."
+    "`" : ","
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
