@@ -1,0 +1,145 @@
+﻿# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: tailuenewdirect
+  name: "傣仂(ᦺᦑ)直打"
+  version: "1.0"
+  author:
+    - 滕謄<daengz@foxmail.com>
+  description: |
+    - 新傣仂文直打輸入法（不知名鍵盤佈局，有改動）
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ "ᦺᦑ", "Eng" ]
+  - name: full_shape
+    reset: 0
+    states: [ "Half", "Full" ]
+   
+
+engine:
+  processors:
+    - ascii_composer
+    - key_binder
+    - punctuator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - punct_segmentor
+  translators:
+    - punct_translator
+
+punctuator:
+  import_preset: default
+  half_shape: &symtable
+    #小寫
+    '`' : 'ᧃ'
+    "1" : "᧚"
+    "2" : '᧒'
+    "3" : '᧓'
+    "4" : "᧔"
+    "5" : "᧕"
+    "6" : "᧖"
+    "7" : "᧗"
+    "8" : "᧘"
+    "9" : "᧙"
+    "0" : "᧐"
+    '-' : "ᧇ"
+    '=' : "ᧅ"	
+    #第二行
+    "q" : "ᦦ"
+    "w" : "ᦧ"
+    "e" : "ᦵ"
+    "r" : "ᦀ"
+    "t" : "ᦎ"
+    "y" : "ᦏ"
+    "u" : "ᦴ"
+    "i" : "ᦲ"
+    "o" : "ᦷ"
+    "p" : "ᦔ"
+    '[' : "ᦕ"
+    ']' : "ᧁ"
+    "\\" : "᧞"	
+    #第三行
+    "a" : "ᦱ"
+    "s" : "ᦉ"
+    "d" : "ᦡ"
+    "f" : "ᦚ"
+    "g" : "ᦄ"
+    "h" : "ᦠ"
+    "j" : "ᦊ"
+    "k" : "ᦂ"
+    "l" : "ᦜ"
+    ';' : "；"
+    '''' : "、"
+    #第四行
+    "z" : "ᦪ"
+    "x" : "ᦈ"
+    "c" : "ᦃ"
+    "v" : "ᧈ"
+    "b" : "ᦛ"
+    "n" : "ᦢ"
+    "m" : "ᦐ"
+    ',' : "ᦖ"
+    '.' : "，"
+    '/' : "。"
+    #大寫第一行
+    '~' : 'ᧂ'
+    '!' : '！'
+    '@' : "ᦺ"
+    '#' : "ᦻ"
+    '$' : "ᦼ"
+    '%' : "ᦽ"
+    '^' : "ᦾ"
+    '&' : 'ᦿ'
+    '*' : "ᧀ"
+    '(' : "（"
+    ')' : "）"
+    '_' : "ᧄ"
+    '+' : "ᧆ"	
+    #第二行
+    "Q" : "ᦨ"
+    "W" : "ᦩ"
+    "E" : "ᦶ"
+    "R" : "ᦁ"
+    "T" : "ᦑ"
+    "Y" : "ᦒ"
+    "U" : "ᦳ"
+    "I" : "ᦹ"
+    "O" : "ᦸ"
+    "P" : "ᦗ"
+    '{' : "ᦘ"
+    '}' : '？'
+    '|' : "᧟"
+    #第二行
+    "A" : "ᦰ"
+    "S" : "ᦌ"
+    "D" : "ᦤ"
+    "F" : "ᦝ"
+    "G" : "ᦇ"
+    "H" : "ᦣ"
+    "J" : "ᦍ"
+    "K" : "ᦅ"
+    "L" : "ᦟ"
+    ':' : "："
+    '\"' : '“”'
+    #第三行
+    "Z" : 'ᦫ'
+    "X" : 'ᦋ'
+    "C" : "ᦆ"
+    "V" : "ᧉ"
+    "B" : "ᦞ"
+    "N" : "ᦥ"
+    "M" : 'ᦓ'
+    '<' : "《"
+    '>' : "》"
+    '?' : "ᦙ"
+    #最後一行
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
