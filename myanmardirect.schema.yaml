@@ -1,0 +1,127 @@
+﻿# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: myanmardirect
+  name: "緬文(မြန်မာ)直打"
+  version: "2.0"
+  author:
+    - 滕謄<daengz@foxmail.com>
+  description: |
+    - 緬文直打輸入法（模擬觸寶緬文鍵盤佈局）
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ "မြန်မာ", "Eng" ]
+  - name: full_shape
+    reset: 0
+    states: [ "Half", "Full" ]
+   
+
+engine:
+  processors:
+    - ascii_composer
+    - key_binder
+    - punctuator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - punct_segmentor
+  translators:
+    - punct_translator
+
+punctuator:
+  import_preset: default
+  half_shape: &symtable
+    #小寫
+    "1" : "၁"
+    "2" : '၂'
+    "3" : '၃'
+    "4" : "၄"
+    "5" : "၅"
+    "6" : "၆"
+    "7" : "၇"
+    "8" : "၈"
+    "9" : "၉"
+    "0" : "၀"
+    #第二行
+    "q" : "ဆ"
+    "w" : "တ"
+    "e" : "န"
+    "r" : "မ"
+    "t" : "အ"
+    "y" : "ပ"
+    "u" : "က"
+    "i" : "င"
+    "o" : "သ"
+    "p" : "စ"	
+    #第三行
+    "a" : "ေ"
+    "s" : "ျ"
+    "d" : "ိ"
+    "f" : "်"
+    "g" : "ါ"
+    "h" : "့"
+    "j" : "ြ"
+    "k" : "ု"
+    "l" : "ူ"
+    ';' : "း"
+    #第四行
+    "z" : "ဖ"
+    "x" : "ထ"
+    "c" : "ခ"
+    "v" : "လ"
+    "b" : "ဘ"
+    "n" : "ည"
+    "m" : "ာ"
+    ',' : "ယ"
+    #大寫第一行
+    '!' : 'ဍ'
+    '@' : "ဎ"
+    '#' : "ဋ"
+    '$' : "ၓ"
+    '%' : "ၔ"
+    '^' : "ၕ"
+    '&' : 'ရ'
+    '*' : "*"
+    '(' : "("
+    ')' : ")"
+    #第二行
+    "Q" : "ဈ"
+    "W" : "ဝ"
+    "E" : "ဣ"
+    "R" : "၎"
+    "T" : "ဤ"
+    "Y" : "၌"
+    "U" : "ဥ"
+    "I" : "၍"
+    "O" : "ဿ"
+    "P" : "ဏ"
+    #第三行
+    "A" : "ဗ"
+    "S" : "ှ"
+    "D" : "ီ"
+    "F" : "္"
+    "G" : "ွ"
+    "H" : "ံ"
+    "J" : "ဲ"
+    "K" : "ဒ"
+    "L" : "ဓ"
+    ':' : "ဂ"
+    #第四行
+    "Z" : 'ဇ'
+    "X" : 'ဌ'
+    "C" : "ဃ"
+    "V" : "ဠ"
+    "B" : "ဟ"
+    "N" : "ဉ"
+    "M" : '၏'
+    '<' : "ယ"
+    #最後一行
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
