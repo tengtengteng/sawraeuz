@@ -1,0 +1,186 @@
+patch: 
+  "preset_keyboards/laodirect": 
+    ascii_mode: 0
+    author: "滕謄<daengz@foxmail.com>"
+    height: 55
+    keys: [{click: q, label: "ົ", long_click: "໑", swipe_up: 1}, {click: w, label: "ໄ", long_click: "໒", swipe_up: 2}, {click: e, label: "ຳ", long_click: "໓", swipe_up: 3}, {click: r, label: "ູ", long_click: "໔", swipe_up: 4}, {click: t, label: "ະ", long_click: "໕", swipe_up: 5}, {click: y, label: "ິ", long_click: "໖", swipe_up: 6}, {click: u, label: "ີ", long_click: "໗", swipe_up: 7}, {click: i, label: "ຂ", long_click: "໘", swipe_up: 8}, {click: o, label: "ນ", long_click: "໙", swipe_up: 9}, {click: p, label: "ຍ", long_click: "໐", swipe_up: 0}, {click: a, label: "ັ", long_click: select_all, swipe_down: Down, swipe_left: Left, swipe_right: Right, swipe_up: Up}, {click: s, label: "ຫ", long_click: "~", swipe_down: Page_Down, swipe_left: Home, swipe_right: End, swipe_up: Page_Up}, {click: d, label: "ກ", long_click: "-", swipe_down: _}, {click: f, label: "໑", long_click: "+", swipe_down: "="}, {click: g, label: "ເ", long_click: "\\", swipe_down: "|"}, {click: h, label: "້", long_click: "[]{Left}", swipe_left: "[", swipe_right: "]"}, {click: j, label: "່", long_click: "{}{Left}", swipe_left: "{", swipe_right: "}"}, {click: k, label: "າ", long_click: "("}, {click: l, label: "ສ", long_click: ")"}, {click: ";", label: "ວ", long_click: "!"}, {click: Keyboard_laodirect0, width: 10}, {click: z, label: "ຜ", long_click: "`"}, {click: x, label: "ປ", long_click: cut}, {click: c, label: "ແ", long_click: copy}, {click: v, label: "ອ", long_click: paste}, {click: b, label: "ໂ", long_click: Time, swipe_up: Date}, {click: n, label: "ຶ", long_click: "\""}, {click: m, label: "ທ", long_click: "'"}, {click: ",", label: "ມ", long_click: "?"}, {click: BackSpace, width: 10}, {click: Menu, long_click: Theme_settings, width: 15}, {click: Keyboard_symbols, long_click: Color_switch, width: 10}, {click: Keyboard_number, long_click: Hide, width: 10}, {click: space, swipe_right: Schema_switch, width: 30}, {click: "`", label: ",", long_click: TrimeApp}, {click: ., long_click: IME_switch, width: 10}, {click: Return, long_click: CommitComment, width: 15}]
+    name: "寮文(ລາວ)直打"
+    width: 10
+  "preset_keyboards/laodirect0": 
+    ascii_mode: 0
+    author: "滕謄<daengz@foxmail.com>"
+    height: 55
+    keys: [{click: "Q{Keyboard_laodirect}", label: "໌", long_click: "໑", swipe_up: 1}, {click: "W{Keyboard_laodirect}", label: "ໃ", long_click: "໒", swipe_up: 2}, {click: "E{Keyboard_laodirect}", label: "ຳ", long_click: "໓", swipe_up: 3}, {click: "R{Keyboard_laodirect}", label: "ຸ", long_click: "໔", swipe_up: 4}, {click: "T{Keyboard_laodirect}", label: "ບ", long_click: "໕", swipe_up: 5}, {click: "Y{Keyboard_laodirect}", label: "ຊ", long_click: "໖", swipe_up: 6}, {click: "U{Keyboard_laodirect}", label: "ງ", long_click: "໗", swipe_up: 7}, {click: "I{Keyboard_laodirect}", label: "ຄ", long_click: "໘", swipe_up: 8}, {click: "O{Keyboard_laodirect}", label: "ໜ", long_click: "໙", swipe_up: 9}, {click: "P{Keyboard_laodirect}", label: "ຽ", long_click: "໐", swipe_up: 0}, {click: "A{Keyboard_laodirect}", label: "ຣ", long_click: select_all, swipe_down: Down, swipe_left: Left, swipe_right: Right, swipe_up: Up}, {click: "S{Keyboard_laodirect}", label: "ຮ", long_click: "~", swipe_down: Page_Down, swipe_left: Home, swipe_right: End, swipe_up: Page_Up}, {click: "D{Keyboard_laodirect}", label: "ຈ", long_click: "-", swipe_down: _}, {click: "F{Keyboard_laodirect}", label: "ໆ", long_click: "+", swipe_down: "="}, {click: "G{Keyboard_laodirect}", label: "ເ", long_click: "\\", swipe_down: "|"}, {click: "H{Keyboard_laodirect}", label: "໊", long_click: "[]{Left}", swipe_left: "[", swipe_right: "]"}, {click: "J{Keyboard_laodirect}", label: "ດ", long_click: "{}{Left}", swipe_left: "{", swipe_right: "}"}, {click: "K{Keyboard_laodirect}", label: "ລ", long_click: "("}, {click: "L{Keyboard_laodirect}", label: "ຕ", long_click: ")"}, {click: ":{Keyboard_laodirect}", label: "ຢ", long_click: "!"}, {click: Keyboard_laodirect, width: 10}, {click: "Z{Keyboard_laodirect}", label: "ຟ", long_click: "`"}, {click: "X{Keyboard_laodirect}", label: "ຝ", long_click: cut}, {click: "C{Keyboard_laodirect}", label: "ພ", long_click: copy}, {click: "V{Keyboard_laodirect}", label: "ຼ", long_click: paste}, {click: "B{Keyboard_laodirect}", label: "ໍ", long_click: Time, swipe_up: Date}, {click: "N{Keyboard_laodirect}", label: "ຶ", long_click: "\""}, {click: "M{Keyboard_laodirect}", label: "ຖ", long_click: "'"}, {click: "<{Keyboard_laodirect}", label: "ໝ", long_click: "?"}, {click: BackSpace, width: 10}, {click: Menu, long_click: Theme_settings, width: 15}, {click: Keyboard_symbols, long_click: Color_switch, width: 10}, {click: Keyboard_number, long_click: Hide, width: 10}, {click: space, swipe_right: Schema_switch, width: 30}, {click: "`", label: ",", long_click: TrimeApp}, {click: ., long_click: IME_switch, width: 10}, {click: Return, long_click: CommitComment, width: 15}]
+    name: "寮文(ລາວ)直打"
+    width: 10
+  "preset_keyboards/thaidirect": 
+    ascii_mode: 0
+    author: "滕謄<daengz@foxmail.com>"
+    height: 44
+    keys: [{click: "`", label: "_"}, {click: 1, label: "ๅ"}, {click: 2, label: "/"}, {click: 3, label: "-"}, {click: 4, label: "ภ"}, {click: 5, label: "ถ"}, {click: 6, label: "ุ"}, {click: 7, label: "ึ"}, {click: 8, label: "ค"}, {click: 9, label: "ต"}, {click: 0, label: "จ"}, {click: "-", label: "ข"}, {click: "=", label: "ช"}, {click: q, label: "ๆ"}, {click: w, label: "ไ"}, {click: e, label: "ำ"}, {click: r, label: "พ"}, {click: t, label: "ะ"}, {click: y, label: "ั"}, {click: u, label: "ี"}, {click: i, label: "ร"}, {click: o, label: "น"}, {click: p, label: "ย"}, {click: "[", label: "บ"}, {click: "]", label: "ล"}, {click: "\\", label: "ฃ"}, {width: 7.69230769}, {click: a, label: "ฟ", long_click: select_all}, {click: s, label: "ห"}, {click: d, label: "ก"}, {click: f, label: "ด"}, {click: g, label: "เ"}, {click: h, label: "้"}, {click: j, label: "่"}, {click: k, label: "า"}, {click: l, label: "ส"}, {click: ";", label: "ว"}, {click: "'", label: "ง"}, {width: 7.69230769}, {click: Keyboard_thaidirect0, width: 11.55}, {click: z, label: "ผ"}, {click: x, label: "ป", long_click: cut}, {click: c, label: "แ", long_click: copy}, {click: v, label: "อ", long_click: paste}, {click: b, label: "ิ"}, {click: n, label: "ื"}, {click: m, label: "ท"}, {click: ",", label: "ม"}, {click: ".", label: "ใ"}, {click: "/", label: "ฝ"}, {click: BackSpace, width: 11.55}, {click: Menu, long_click: Theme_settings, width: 15.4}, {click: Keyboard_symbols, long_click: Color_switch, width: 8.6}, {click: Keyboard_number, long_click: Hide, width: 8.6}, {click: space, swipe_right: Schema_switch, width: 34.65}, {click: "}", label: ",", long_click: TrimeApp, width: 8.6}, {click: "\"", label: ".", long_click: IME_switch, width: 8.6}, {click: Return, long_click: CommitComment, width: 15.4}]
+    name: "泰文(ไทย)直打"
+    width: 7.69230769
+  "preset_keyboards/thaidirect0": 
+    ascii_mode: 0
+    author: "滕謄<daengz@foxmail.com>"
+    height: 44
+    keys: [{click: "~", label: "%"}, {click: "!", label: "+"}, {click: "@", label: "๑"}, {click: "#", label: "๒"}, {click: "$", label: "๓"}, {click: "%", label: "๔"}, {click: "^", label: "ู"}, {click: "&", label: "฿"}, {click: "*", label: "๕"}, {click: "(", label: "๖"}, {click: ")", label: "๗"}, {click: "_", label: "๘"}, {click: "+", label: "๙"}, {click: "Q", label: "๐"}, {click: "W", label: "ไ"}, {click: "E", label: "ฎ"}, {click: "R", label: "ฑ"}, {click: "T", label: "ธ"}, {click: "Y", label: "ํ"}, {click: "U", label: "๊"}, {click: "I", label: "ณ"}, {click: "O", label: "ฯ"}, {click: "P", label: "ญ"}, {click: "{", label: "ฐ"}, {click: "}", label: ","}, {click: "|", label: "ฅ"}, {width: 7.69230769}, {click: "A", label: "ฤ", long_click: select_all}, {click: "S", label: "ฆ"}, {click: "D", label: "ฏ"}, {click: "F", label: "โ"}, {click: "G", label: "ฌ"}, {click: "H", label: "็"}, {click: "J", label: "๋"}, {click: "K", label: "ษ"}, {click: "L", label: "ศ"}, {click: ":", label: "ซ"}, {click: "\"", label: "."}, {width: 7.69230769}, {click: Keyboard_thaidirect, width: 11.55}, {click: "Z", label: "("}, {click: "X", label: ")", long_click: cut}, {click: "C", label: "ฉ", long_click: copy}, {click: "V", label: "ฮ", long_click: paste}, {click: "B", label: "ฺ"}, {click: "N", label: "์"}, {click: "M", label: "?"}, {click: "<", label: "ฒ"}, {click: ">", label: "ฬ"}, {click: "?", label: "ฦ"}, {click: BackSpace, width: 11.55}, {click: Menu, long_click: Theme_settings, width: 15.4}, {click: Keyboard_symbols, long_click: Color_switch, width: 8.6}, {click: Keyboard_number, long_click: Hide, width: 8.6}, {click: space, swipe_right: Schema_switch, width: 34.65}, {click: "}", label: ",", long_click: TrimeApp, width: 8.6}, {click: "\"", label: ".", long_click: IME_switch, width: 8.6}, {click: Return, long_click: CommitComment, width: 15.4}]
+    name: "泰文(ไทย)直打"
+    width: 7.69230769
+  "preset_keyboards/myanmardirect": 
+    ascii_mode: 0
+    author: "滕謄<daengz@foxmail.com>"
+    height: 44
+    keys: [{click: 1, label: "၁"}, {click: 2, label: "၂"}, {click: 3, label: "၃"}, {click: 4, label: "၄"}, {click: 5, label: "၅"}, {click: 6, label: "၆"}, {click: 7, label: "၇"}, {click: 8, label: "၈"}, {click: 9, label: "၉"}, {click: 0, label: "၀"}, {click: q, label: "ဆ"}, {click: w, label: "တ"}, {click: e, label: "န"}, {click: r, label: "မ"}, {click: t, label: "အ"}, {click: y, label: "ပ"}, {click: u, label: "က"}, {click: i, label: "င"}, {click: o, label: "သ"}, {click: p, label: "စ"}, {click: a, label: "ေ", long_click: select_all, swipe_down: Down, swipe_left: Left, swipe_right: Right, swipe_up: Up}, {click: s, label: "ျ"}, {click: d, label: "ိ"}, {click: f, label: "်"}, {click: g, label: "ါ"}, {click: h, label: "့"}, {click: j, label: "ြ"}, {click: k, label: "ု"}, {click: l, label: "ူ"}, {click: ";", label: "း", long_click: "!"}, {click: Keyboard_myanmardirect0, width: 10}, {click: z, label: "ဖ"}, {click: x, label: "ထ", long_click: cut}, {click: c, label: "ခ", long_click: copy}, {click: v, label: "လ", long_click: paste}, {click: b, label: "ဘ", long_click: Time, swipe_up: Date}, {click: n, label: "ည"}, {click: m, label: "ာ"}, {click: ",", label: "ယ", long_click: "?"}, {click: BackSpace, width: 10}, {click: Menu, long_click: Theme_settings, width: 10}, {click: Keyboard_symbols, long_click: Color_switch, width: 10}, {click: Keyboard_number, long_click: Hide, width: 10}, {click: space, swipe_right: Schema_switch, width: 30}, {click: "`", label: ",", long_click: TrimeApp}, {click: ., long_click: IME_switch, width: 10}, {click: Return, long_click: CommitComment, width: 20}]
+    name: "緬文(မြန်မာ)直打"
+    width: 10
+  "preset_keyboards/myanmardirect0": 
+    ascii_mode: 0
+    author: "滕謄<daengz@foxmail.com>"
+    height: 44
+    keys: [{click: "!", label: "ဍ"}, {click: "@", label: "ဎ"}, {click: "#", label: "ဋ"}, {click: "$", label: "ၓ"}, {click: "%", label: "ၔ"}, {click: "^", label: "ၕ"}, {click: "&", label: "ရ"}, {click: "*", label: "*"}, {click: "(", label: "("}, {click: ")", label: ")"}, {click: "Q{Keyboard_myanmardirect}", label: "ဈ"}, {click: "W{Keyboard_myanmardirect}", label: "ဝ"}, {click: "E{Keyboard_myanmardirect}", label: "ဣ"}, {click: "R{Keyboard_myanmardirect}", label: "၎"}, {click: "T{Keyboard_myanmardirect}", label: "ဤ"}, {click: "Y{Keyboard_myanmardirect}", label: "၌"}, {click: "U{Keyboard_myanmardirect}", label: "ဥ"}, {click: "I{Keyboard_myanmardirect}", label: "၍"}, {click: "O{Keyboard_myanmardirect}", label: "ဿ"}, {click: "P{Keyboard_myanmardirect}", label: "ဏ"}, {click: "A{Keyboard_myanmardirect}", label: "ဗ", long_click: select_all, swipe_down: Down, swipe_left: Left, swipe_right: Right, swipe_up: Up}, {click: "S{Keyboard_myanmardirect}", label: "ှ"}, {click: "D{Keyboard_myanmardirect}", label: "ီ"}, {click: "F{Keyboard_myanmardirect}", label: "္"}, {click: "G{Keyboard_myanmardirect}", label: "ွ"}, {click: "H{Keyboard_myanmardirect}", label: "ံ"}, {click: "J{Keyboard_myanmardirect}", label: "ဲ"}, {click: "K{Keyboard_myanmardirect}", label: "ဒ"}, {click: "L{Keyboard_myanmardirect}", label: "ဓ"}, {click: ":{Keyboard_myanmardirect}", label: "ဂ", long_click: "!"}, {click: Keyboard_myanmardirect, width: 10}, {click: "Z{Keyboard_myanmardirect}", label: "ဇ"}, {click: "X{Keyboard_myanmardirect}", label: "ဌ", long_click: cut}, {click: "C{Keyboard_myanmardirect}", label: "ဃ", long_click: copy}, {click: "V{Keyboard_myanmardirect}", label: "ဠ", long_click: paste}, {click: "B{Keyboard_myanmardirect}", label: "ဟ", long_click: Time, swipe_up: Date}, {click: "N{Keyboard_myanmardirect}", label: "ဉ"}, {click: "M{Keyboard_myanmardirect}", label: "၏"}, {click: "<{Keyboard_myanmardirect}", label: "ယ", long_click: "?"}, {click: BackSpace, width: 10}, {click: Menu, long_click: Theme_settings, width: 10}, {click: Keyboard_symbols, long_click: Color_switch, width: 10}, {click: Keyboard_number, long_click: Hide, width: 10}, {click: space, swipe_right: Schema_switch, width: 30}, {click: "`", label: ",", long_click: TrimeApp}, {click: ., long_click: IME_switch, width: 10}, {click: Return, long_click: CommitComment, width: 20}]
+    name: "緬文(မြန်မာ)直打"
+    width: 10
+  "preset_keyboards/tailedirect": 
+    ascii_mode: 0
+    author: "滕謄<daengz@foxmail.com>"
+    height: 44
+    keys: [{click: 1, label: "၁"}, {click: 2, label: "၂"}, {click: 3, label: "၃"}, {click: 4, label: "၄"}, {click: 5, label: "၅"}, {click: 6, label: "၆"}, {click: 7, label: "၇"}, {click: 8, label: "၈"}, {click: 9, label: "၉"}, {click: 0, label: "၀"}, {click: "-", label: "ᥰ"}, {click: "=", label: "ᥱ"}, {click: q, label: "ᥪ"}, {click: w, label: "ᥩ"}, {click: e, label: "ᥥ"}, {click: r, label: "ᥫ"}, {click: t, label: "ᥗ"}, {click: y, label: "ᥕ"}, {click: u, label: "ᥧ"}, {click: i, label: "ᥤ"}, {click: o, label: "ᥨ"}, {click: p, label: "ᥚ"}, {click: "[", label: "ᥲ"}, {click: "]", label: "ᥳ"}, {click: a, label: "ᥣ", long_click: select_all}, {click: s, label: "ᥔ"}, {click: d, label: "ᥖ"}, {click: f, label: "ᥜ"}, {click: g, label: "ᥐ"}, {click: h, label: "ᥞ"}, {click: j, label: "ᥓ"}, {click: k, label: "ᥑ"}, {click: l, label: "ᥘ"}, {click: ";", label: "ᥭ"}, {click: "'", label: "ᥴ"}, {click: "?"}, {click: Shift_L}, {click: z, label: "ᥟ"}, {click: x, label: "ᥦ", long_click: cut}, {click: c, label: "ᥬ", long_click: copy}, {click: v, label: "ᥝ", long_click: paste}, {click: b, label: "ᥙ"}, {click: n, label: "ᥒ"}, {click: m, label: "ᥛ"}, {click: ",", label: "ᥢ"}, {click: ".", label: "ᥡ"}, {click: "/", label: "ᥠ"}, {click: BackSpace}, {click: Menu, long_click: Theme_settings, width: 16.6}, {click: Keyboard_symbols, long_click: Color_switch}, {click: Keyboard_number, long_click: Hide}, {click: space, swipe_right: Schema_switch, width: 33.4}, {click: "<", label: ",", long_click: TrimeApp}, {click: ">", label: ".", long_click: IME_switch}, {click: Return, long_click: CommitComment, width: 16.4}]
+    name: "傣那（ᥖᥭᥰ）直打"
+    width: 8.4
+  "preset_keyboards/tailuenewdirect": 
+    ascii_mode: 0
+    author: "滕謄<daengz@foxmail.com>"
+    height: 44
+    keys: [{click: "`", label: "ᧃ"}, {click: 1, label: "᧚", long_click: "᧑"}, {click: 2, label: "᧒"}, {click: 3, label: "᧓"}, {click: 4, label: "᧔"}, {click: 5, label: "᧕"}, {click: 6, label: "᧖"}, {click: 7, label: "᧗"}, {click: 8, label: "᧘"}, {click: 9, label: "᧙"}, {click: 0, label: "᧐"}, {click: "-", label: "ᧇ"}, {click: "=", label: "ᧅ"}, {click: q, label: "ᦦ"}, {click: w, label: "ᦧ"}, {click: e, label: "ᦵ"}, {click: r, label: "ᦀ"}, {click: t, label: "ᦎ"}, {click: y, label: "ᦏ"}, {click: u, label: "ᦴ"}, {click: i, label: "ᦲ"}, {click: o, label: "ᦷ"}, {click: p, label: "ᦔ"}, {click: "[", label: "ᦕ"}, {click: "]", label: "ᧁ"}, {click: "\\", label: "᧞"}, {width: 7.69230769}, {click: a, label: "ᦱ", long_click: select_all}, {click: s, label: "ᦉ"}, {click: d, label: "ᦡ"}, {click: f, label: "ᦚ"}, {click: g, label: "ᦄ"}, {click: h, label: "ᦠ"}, {click: j, label: "ᦊ"}, {click: k, label: "ᦂ"}, {click: l, label: "ᦜ"}, {click: ";", label: "；"}, {click: "'", label: "、"}, {width: 7.69230769}, {click: Keyboard_tailuenewdirect0, width: 11.55}, {click: z, label: "ᦪ"}, {click: x, label: "ᦈ", long_click: cut}, {click: c, label: "ᦃ", long_click: copy}, {click: v, label: "ᧈ", long_click: paste}, {click: b, label: "ᦛ"}, {click: n, label: "ᦢ"}, {click: m, label: "ᦐ"}, {click: ",", label: "ᦖ"}, {click: ".", label: "，"}, {click: "/", label: "。"}, {click: BackSpace, width: 11.55}, {click: Menu, long_click: Theme_settings, width: 15.4}, {click: Keyboard_symbols, long_click: Color_switch, width: 8.6}, {click: Keyboard_number, long_click: Hide, width: 8.6}, {click: space, swipe_right: Schema_switch, width: 34.65}, {click: "᪨", long_click: TrimeApp, width: 8.6}, {click: "᪩", long_click: IME_switch, width: 8.6}, {click: Return, long_click: CommitComment, width: 15.4}]
+    name: "傣仂(ᦺᦑ)直打"
+    width: 7.69230769
+  "preset_keyboards/tailuenewdirect0": 
+    ascii_mode: 0
+    author: "滕謄<daengz@foxmail.com>"
+    height: 44
+    keys: [{click: "~", label: "ᧂ"}, {click: "!", label: "！"}, {click: "@", label: "ᦺ"}, {click: "#", label: "ᦻ"}, {click: "$", label: "ᦼ"}, {click: "%", label: "ᦽ"}, {click: "^", label: "ᦾ"}, {click: "&", label: "ᦿ"}, {click: "*", label: "ᧀ"}, {click: "(", label: "（"}, {click: ")", label: "）"}, {click: "_", label: "ᧄ"}, {click: "+", label: "ᧆ"}, {click: "Q", label: "ᦨ"}, {click: "W", label: "ᦩ"}, {click: "E", label: "ᦶ"}, {click: "R", label: "ᦁ"}, {click: "T", label: "ᦑ"}, {click: "Y", label: "ᦒ"}, {click: "U", label: "ᦳ"}, {click: "I", label: "ᦹ"}, {click: "O", label: "ᦸ"}, {click: "P", label: "ᦗ"}, {click: "{", label: "ᦘ"}, {click: "}", label: "？"}, {click: "|", label: "᧟"}, {width: 7.69230769}, {click: "A", label: "ᦰ", long_click: select_all}, {click: "S", label: "ᦌ"}, {click: "D", label: "ᦤ"}, {click: "F", label: "ᦝ"}, {click: "G", label: "ᦇ"}, {click: "H", label: "ᦣ"}, {click: "J", label: "ᦍ"}, {click: "K", label: "ᦅ"}, {click: "L", label: "ᦟ"}, {click: ":", label: "："}, {click: "\"", label: "\""}, {width: 7.69230769}, {click: Keyboard_tailuenewdirect, width: 11.55}, {click: "Z", label: "ᦫ"}, {click: "X", label: "ᦋ", long_click: cut}, {click: "C", label: "ᦆ", long_click: copy}, {click: "V", label: "ᧉ", long_click: paste}, {click: "B", label: "ᦞ"}, {click: "N", label: "ᦥ"}, {click: "M", label: "ᦓ"}, {click: "<", label: "《"}, {click: ">", label: "》"}, {click: "?", label: "ᦙ"}, {click: BackSpace, width: 11.55}, {click: Menu, long_click: Theme_settings, width: 15.4}, {click: Keyboard_symbols, long_click: Color_switch, width: 8.6}, {click: Keyboard_number, long_click: Hide, width: 8.6}, {click: space, swipe_right: Schema_switch, width: 34.65}, {click: "᪨", long_click: TrimeApp, width: 8.6}, {click: "᪩", long_click: IME_switch, width: 8.6}, {click: Return, long_click: CommitComment, width: 15.4}]
+    name: "傣仂(ᦺᦑ)直打"
+    width: 7.69230769
+  "preset_keyboards/taidamdirect": 
+    ascii_mode: 0
+    author: "滕謄<daengz@foxmail.com>"
+    height: 44
+    keys: [{click: 1, label: "\uAA80"}, {click: 2, label: "\uAA81"}, {click: 3, label: "\uAA82"}, {click: 4, label: "\uAA83"}, {click: 5, label: "\uAA84"}, {click: 6, label: "\uAA85"}, {click: 7, label: "\uAA86"}, {click: 8, label: "\uAA87"}, {click: 9, label: "\uAA88"}, {click: 0, label: "\uAA89"}, {click: q, label: "\uAA8A"}, {click: w, label: "\uAA8B"}, {click: e, label: "\uAA8C"}, {click: r, label: "\uAA8D"}, {click: t, label: "\uAA8E"}, {click: y, label: "\uAA8F"}, {click: u, label: "\uAA90"}, {click: i, label: "\uAA91"}, {click: o, label: "\uAA92"}, {click: p, label: "\uAA93"}, {click: a, label: "\uAA94", long_click: select_all}, {click: s, label: "\uAA95"}, {click: d, label: "\uAA96"}, {click: f, label: "\uAA97"}, {click: g, label: "\uAA98"}, {click: h, label: "\uAA99"}, {click: j, label: "\uAA9A"}, {click: k, label: "\uAA9B"}, {click: l, label: "\uAA9C"}, {click: ";", label: "\uAA9D"}, {click: Keyboard_taidamdirect0}, {click: z, label: "\uAA9E"}, {click: x, label: "\uAA9F", long_click: cut}, {click: c, label: "\uAAA0", long_click: copy}, {click: v, label: "\uAAA1", long_click: paste}, {click: b, label: "\uAAA2"}, {click: n, label: "\uAAA3"}, {click: m, label: "\uAAA4"}, {click: ",", label: "\uAAA5"}, {click: BackSpace}, {click: Menu, long_click: Theme_settings, width: 15}, {click: Keyboard_symbols, long_click: Color_switch, width: 10}, {click: Keyboard_number, long_click: Hide, width: 10}, {click: space, swipe_right: Schema_switch, width: 30}, {click: "|", label: ",", long_click: TrimeApp}, {click: ., long_click: IME_switch, width: 10}, {click: Return, long_click: CommitComment, width: 15}]
+    name: "傣黯(ꪺꪕꪒꪾ)直打"
+    width: 10
+  "preset_keyboards/taidamdirect0": 
+    ascii_mode: 0
+    author: "滕謄<daengz@foxmail.com>"
+    height: 44
+    keys: [{click: "!", label: "\uAAA6"}, {click: "@", label: "\uAAA7"}, {click: "#", label: "\uAAA8"}, {click: "$", label: "\uAAA9"}, {click: "%", label: "\uAAAA"}, {click: "^", label: "\uAAAB"}, {click: "&", label: "\uAAAC"}, {click: "*", label: "\uAAAD"}, {click: "(", label: "\uAAAE"}, {click: ")", label: "\uAAB0"}, {click: "Q", label: "\uAAB1"}, {click: "W", label: "\uAAB2"}, {click: "E", label: "\uAAB3"}, {click: "R", label: "\uAAB4"}, {click: "T", label: "\uAAB5"}, {click: "Y", label: "\uAAB6"}, {click: "U", label: "\uAAB7"}, {click: "I", label: "\uAAB8"}, {click: "O", label: "\uAAB9"}, {click: "P", label: "\uAABA"}, {click: "A", label: "\uAABB", long_click: select_all}, {click: "S", label: "\uAABC"}, {click: "D", label: "\uAABD"}, {click: "F", label: "\uAABE"}, {click: "G", label: "\uAABF"}, {click: "H", label: "\uAAC0"}, {click: "J", label: "\uAAC1"}, {click: "K", label: "\uAAC2"}, {click: "L", label: "\u0022"}, {click: ":", label: "\u003F"}, {click: Keyboard_taidamdirect}, {click: "Z", label: "\uAADB"}, {click: "X", label: "\uAADC", long_click: cut}, {click: "C", label: "\uAADD", long_click: copy}, {click: "V", label: "\uAADE", long_click: paste}, {click: "B", label: "\uAADF"}, {click: "N", label: "\u0028"}, {click: "M", label: "\u0029"}, {click: "<", label: "\u0021"}, {click: BackSpace}, {click: Menu, long_click: Theme_settings, width: 15}, {click: Keyboard_symbols, long_click: Color_switch, width: 10}, {click: Keyboard_number, long_click: Hide, width: 10}, {click: space, swipe_right: Schema_switch, width: 30}, {click: "|", label: ",", long_click: TrimeApp}, {click: ., long_click: IME_switch, width: 10}, {click: Return, long_click: CommitComment, width: 15}]
+    name: "傣黯(ꪺꪕꪒꪾ)直打"
+    width: 10
+
+  "preset_color_schemes/ios":
+    name: "林檎/ios"
+    author: "滕謄"
+    back_color: 0xbbc2c9
+    border_color: 0x000000
+    candidate_separator_color: 0xc1c7ca
+    candidate_text_color: 0x000000
+    comment_text_color: 0x000000
+    hilited_back_color: 0xbbc2c9
+    hilited_candidate_back_color: 0xadb4be
+    hilited_candidate_text_color: 0xffffff
+    hilited_comment_text_color: 0x000000
+    hilited_key_back_color: 0xd2d6db
+    hilited_key_symbol_color: 0xd2d6db
+    hilited_key_text_color: 0xd2d6db
+    hilited_off_key_back_color: 0xd2d6db
+    hilited_off_key_text_color: 0xd2d6db
+    hilited_on_key_back_color: 0xadb4be
+    hilited_on_key_text_color: 0x000000
+    hilited_text_color: 0x000000
+    key_back_color: 0xffffff
+    key_border_color: 0xeceff1
+    key_symbol_color: 0x5f6b73
+    key_text_color: 0x000000
+    keyboard_back_color: 0xd2d6db
+    label_color: 0x000000
+    off_key_back_color: 0xadb4be
+    off_key_text_color: 0x000000
+    on_key_back_color: 0xd2d6db
+    on_key_text_color: 0x000000
+    preview_back_color: 0xbfbfbf
+    preview_text_color: 0x23948e
+    shadow_color: 0x000000
+    text_back_color: 0xadb4be
+    text_color: 0x000000
+
+  "preset_keys/Keyboard_laodirect": 
+    functional: true
+    label: "⇪"
+    select: laodirect
+    send: Eisu_toggle
+  "preset_keys/Keyboard_laodirect0": 
+    functional: true
+    label: "⇪"
+    select: laodirect0
+    send: Eisu_toggle
+  "preset_keys/Keyboard_thaidirect": 
+    functional: true
+    label: "⇪"
+    select: thaidirect
+    send: Eisu_toggle
+  "preset_keys/Keyboard_thaidirect0": 
+    functional: true
+    label: "⇪"
+    select: thaidirect0
+    send: Eisu_toggle
+  "preset_keys/Keyboard_myanmardirect": 
+    functional: true
+    label: "⇪"
+    select: myanmardirect
+    send: Eisu_toggle
+  "preset_keys/Keyboard_myanmardirect0": 
+    functional: true
+    label: "⇪"
+    select: myanmardirect0
+    send: Eisu_toggle
+  "preset_keys/Keyboard_tailedirect": 
+    functional: true
+    label: "⇪"
+    select: tailedirect
+    send: Eisu_toggle
+  "preset_keys/Keyboard_tailuenewdirect": 
+    functional: true
+    label: "⇪"
+    select: tailuenewdirect
+    send: Eisu_toggle
+  "preset_keys/Keyboard_tailuenewdirect0": 
+    functional: true
+    label: "⇪"
+    select: tailuenewdirect0
+    send: Eisu_toggle
+  "preset_keys/Keyboard_taidamdirect": 
+    functional: true
+    label: "⇪"
+    select: taidamdirect
+    send: Eisu_toggle
+  "preset_keys/Keyboard_taidamdirect0": 
+    functional: true
+    label: "⇪"
+    select: taidamdirect0
+    send: Eisu_toggle
+  "style/keyboards":
+    - .default
+    - default
+    - number
+    - symbols
+    - laodirect
+    - laodirect0
+    - thaidirect
+    - thaidirect0
+    - myanmardirect
+    - myanmardirect0
+    - tailedirect
+    - tailuenewdirect
+    - tailuenewdirect0
+    - taidamdirect
+    - taidamdirect0
