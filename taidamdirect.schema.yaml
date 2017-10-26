@@ -1,0 +1,129 @@
+﻿# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: taidamdirect
+  name: "傣黯(ꪺꪕꪒꪾ)直打"
+  version: "1.0"
+  author:
+    - 滕謄<daengz@foxmail.com>
+  description: |
+    鍵盤字母排序按照越南黑傣文編碼順序，無詞庫……誰有可以聯繫我（2017.10.26）
+    
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ "ꪺꪕꪒꪾ", "Eng" ]
+  - name: full_shape
+    reset: 0
+    states: [ "Half", "Full" ]
+   
+
+engine:
+  processors:
+    - ascii_composer
+    - key_binder
+    - punctuator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - punct_segmentor
+  translators:
+    - punct_translator
+
+punctuator:
+  import_preset: default
+  half_shape: &symtable
+    #小寫數字
+    "1" : "\uAA80"
+    "2" : "\uAA81"
+    "3" : "\uAA82"
+    "4" : "\uAA83"
+    "5" : "\uAA84"
+    "6" : "\uAA85"
+    "7" : "\uAA86"
+    "8" : "\uAA87"
+    "9" : "\uAA88"
+    "0" : "\uAA89"
+    #字母第一行
+    "q" : "\uAA8A"
+    "w" : "\uAA8B"
+    "e" : "\uAA8C"
+    "r" : "\uAA8D"
+    "t" : "\uAA8E"
+    "y" : "\uAA8F"
+    "u" : "\uAA90"
+    "i" : "\uAA91"
+    "o" : "\uAA92"
+    "p" : "\uAA93"
+    #第二行
+    "a" : "\uAA94"
+    "s" : "\uAA95"
+    "d" : "\uAA96"
+    "f" : "\uAA97"
+    "g" : "\uAA98"
+    "h" : "\uAA99"
+    "j" : "\uAA9A"
+    "k" : "\uAA9B"
+    "l" : "\uAA9C"
+    ";" : "\uAA9D"
+    #第三行
+    "z" : "\uAA9E"
+    "x" : "\uAA9F"
+    "c" : "\uAAA0"
+    "v" : "\uAAA1"
+    "b" : "\uAAA2"
+    "n" : "\uAAA3"
+    "m" : "\uAAA4"
+    "," : "\uAAA5"
+    #大寫數字
+    '!' : "\uAAA6"
+    '@' : "\uAAA7"
+    '#' : "\uAAA8"
+    '$' : "\uAAA9"
+    '%' : "\uAAAA"
+    '^' : "\uAAAB"
+    '&' : "\uAAAC"
+    '*' : "\uAAAD"
+    '(' : "\uAAAE"
+    ')' : "\uAAB0"
+    #字母第一行
+    "Q" : "\uAAB1"
+    "W" : "\uAAB2"
+    "E" : "\uAAB3"
+    "R" : "\uAAB4"
+    "T" : "\uAAB5"
+    "Y" : "\uAAB6"
+    "U" : "\uAAB7"
+    "I" : "\uAAB8"
+    "O" : "\uAAB9"
+    "P" : "\uAABA"
+    #第二行
+    "A" : "\uAABB"
+    "S" : "\uAABC"
+    "D" : "\uAABD"
+    "F" : "\uAABE"
+    "G" : "\uAABF"
+    "H" : "\uAAC0"
+    "J" : "\uAAC1"
+    "K" : "\uAAC2"
+    "L" : "\u0022"
+    ":" : "\u003F"
+    #第三行
+    "Z" : "\uAADB"
+    "X" : "\uAADC"
+    "C" : "\uAADD"
+    "V" : "\uAADE"
+    "B" : "\uAADF"
+    "N" : "\u0028"
+    "M" : "\u0029"
+    "<" : "\u0021"
+    #最後一行
+    "." : "."
+    "|" : ","
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
