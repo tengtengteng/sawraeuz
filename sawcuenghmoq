@@ -1,0 +1,63 @@
+# Rime schema
+# vim: set sw=2 sts=2 et:
+# encoding: utf-8
+
+schema:
+  schema_id: sawcuenghmoq
+  name: 書僮新
+  version: "0.2"
+  author:
+    - Daenghdaengz <1321969363@qq.com>
+  description: |
+    新僮文輸入法，碼表來源於sawroeg：http://sawroeg.rliber.com/sawroeg
+    爲「僚人家園」熱心網友從《壯漢詞彙》這一辭典中收集整理http://www.rauz.net.cn/bbs/dispbbs_20_16081_1.html
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ Cuengh, abcd ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: ascii_punct
+    reset: 1
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - navigator
+    - selector
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - table_translator
+    - punct_translator
+  filters:
+    - uniquifier
+    
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA-_
+  delimiter: " '"
+
+translator:
+  dictionary: sawcuenghmoq
+  spelling_hints: 9
+
+ 
+key_binder:
+  import_preset: default
+  
+punctuator:
+  import_preset: symbols
+  
+recognizer:
+  import_preset: default
